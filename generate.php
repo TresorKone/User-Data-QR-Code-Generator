@@ -19,5 +19,5 @@ if (isset($_POST["submit-btn"])) {
 
     QRcode::png($codeString, $filename);
 
-    echo "<img alt='qr' src='" . $PNG_TEMP_DIR . basename($filename) . "' /><hr/>";
+    echo "<img class='p-8' alt='qr' src='" . $PNG_TEMP_DIR . basename($filename) . "' /><hr/>";
 }
