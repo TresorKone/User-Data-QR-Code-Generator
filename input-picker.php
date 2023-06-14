@@ -11,7 +11,4 @@ if (isset($_POST["submit-btn"])) {
     $email = $_POST["email"];
     $link = $_POST["link"];
 
-    echo "<pre>";
-    //var_dump($_POST);
-    echo "</pre";
 }
